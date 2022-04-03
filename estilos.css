@@ -95,18 +95,8 @@ body{
 
 /*Responsive Design*/
 
-@media(max-width:375px){
-    body{
-        align-items: center;
-        background-color: hsl(216, 12%, 8%);
-        color: hsl(0, 0%, 100%);
-        display: flex;
-        margin: 0;
-        min-height: 100vh;
-        padding: 0;
-        font-family: 'Overpass', sans-serif;
-    }
-    
+@media(max-width:380px){
+   
     .padre{
         background-color: hsl(213, 19%, 18%);
         border-radius: 20px;
@@ -121,7 +111,7 @@ body{
         border-radius: 100%;
         display: flex;
         justify-content: center;
-        min-width: 10vw;
+        max-width: 11vw;
         padding: 10px;
     }
     
@@ -142,12 +132,6 @@ body{
         font-weight: 400;
     }
     
-    .contenedor-botones{
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-    }
-    
     .contenedor-botones > button{
         border: 1px solid hsl(216, 12%, 8%);
         border-radius: 100%;
@@ -158,21 +142,6 @@ body{
         padding: 8px;
     }
     
-    .contenedor-botones > button:hover{
-        background-color: hsl(25, 97%, 53%);
-        color: hsl(0, 0%, 100%);
-    }
-    
-    .contenedor-botones > button:active{
-        background-color: hsl(217, 12%, 63%);
-    }
-    
-    .contenedor-submit{
-        display: flex;
-        justify-content: center;
-        margin-top: 3vh;
-    }
-    
     .contenedor-submit button{
         border-radius: 20px;
         background-color: hsl(25, 97%, 53%);
@@ -180,10 +149,5 @@ body{
         font-weight: 400;
         min-width: 80vw;
         padding: 5px;
-    }
-    
-    .contenedor-submit button:active{
-        background-color: hsl(0, 0%, 100%);
-        color: hsl(25, 97%, 53%);
     }
 }
