@@ -1,0 +1,189 @@
+
+*{
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body{
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+.padre{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 30vw;
+}
+
+.star{
+    align-items: center;
+    border: 1px solid hsl(213, 19%, 18%);
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 3vw;
+    padding: 10px;
+}
+
+.paragraph{
+    padding-top: 20px;
+}
+
+.paragraph h3{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.paragraph p{
+    max-width: 30vw;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contenedor-botones{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contenedor-botones > button{
+    border: 1px solid hsl(216, 12%, 8%);
+    border-radius: 100%;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+    min-height: 6.2vh;
+    min-width: 3vw;
+    padding: 8px;
+}
+
+.contenedor-botones > button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.contenedor-botones > button:active{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.contenedor-submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.contenedor-submit button{
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    min-width: 25vw;
+    padding: 5px;
+}
+
+.contenedor-submit button:active{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/*Responsive Design*/
+
+@media(max-width:375px){
+    body{
+        align-items: center;
+        background-color: hsl(216, 12%, 8%);
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        margin: 0;
+        min-height: 100vh;
+        padding: 0;
+        font-family: 'Overpass', sans-serif;
+    }
+    
+    .padre{
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 20px;
+        padding: 30px;
+        min-width: 100vw;
+    }
+    
+    .star{
+        align-items: center;
+        border: 1px solid hsl(213, 19%, 18%);
+        background-color: hsl(216, 12%, 8%);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        min-width: 10vw;
+        padding: 10px;
+    }
+    
+    .paragraph{
+        padding-top: 20px;
+        min-width: 80vw;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .paragraph h3{
+        font-size: 4vw;
+        font-weight: 700;
+    }
+    
+    .paragraph p{
+        min-width: 80vw;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .contenedor-botones{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .contenedor-botones > button{
+        border: 1px solid hsl(216, 12%, 8%);
+        border-radius: 100%;
+        background-color: hsl(216, 12%, 8%);
+        color: hsl(217, 12%, 63%);
+        min-height: 8vh;
+        min-width: 12vw;
+        padding: 8px;
+    }
+    
+    .contenedor-botones > button:hover{
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .contenedor-botones > button:active{
+        background-color: hsl(217, 12%, 63%);
+    }
+    
+    .contenedor-submit{
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+    }
+    
+    .contenedor-submit button{
+        border-radius: 20px;
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        min-width: 80vw;
+        padding: 5px;
+    }
+    
+    .contenedor-submit button:active{
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(25, 97%, 53%);
+    }
+}
