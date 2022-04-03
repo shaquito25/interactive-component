@@ -95,7 +95,7 @@ body{
 
 /*Responsive Design*/
 
-@media(max-width:380px){
+@media(max-width:885px){
    
     .padre{
         background-color: hsl(213, 19%, 18%);
