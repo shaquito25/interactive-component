@@ -4,14 +4,18 @@ const rating_btn = document.querySelectorAll(".botones") //Selecciona botones ra
 const card_1 = document.querySelector("#container1") // Seleccioan el card 1
 const card_2 = document.querySelector("#container2") // Selecciona el card 2 
 const score = document.querySelector("#score") // Selecciona el Span con el score
-let stars_score  // valor por defecto
+const calificacion = document.querySelector("#calificacion") // Selecciona el mensaje de error
+let stars_score = 0 // valor por defecto
 
 
 const onsubmit = () => {
-   
-    card_2.style.display = "flex"
-    card_1.style.display = "none"
-    score.textContent = stars_score // renderiza el valor del boton
+   if(stars_score === 0){
+      calificacion.style.display = "flex"
+   }else{
+       card_2.style.display = "flex"
+       card_1.style.display = "none"
+       score.textContent = stars_score // renderiza el valor del boton
+   }
 }
 
 const handleClick = (e) => {

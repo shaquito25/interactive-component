@@ -93,19 +93,28 @@ body{
     color: hsl(25, 97%, 53%);
 }
 
+#calificacion {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    display: none;
+    font-weight: 400;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
 
 /*Carta cuando hacemos submit*/
 
 .card-2{
+    align-items: center;
     background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
     max-width: 30vw;
     padding: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: none;
 }
 
 .container-header{
@@ -155,9 +164,9 @@ body{
     }
     
     .paragraph{
-        padding-top: 20px;
-        min-width: 80vw;
         color: hsl(0, 0%, 100%);
+        min-width: 80vw;
+        padding-top: 20px;
     }
     
     .paragraph h3{
@@ -166,9 +175,9 @@ body{
     }
     
     .paragraph p{
-        min-width: 80vw;
         font-size: 15px;
         font-weight: 400;
+        min-width: 80vw;
     }
     
     .contenedor-botones > button{
@@ -176,8 +185,7 @@ body{
         border-radius: 100%;
         background-color: hsl(216, 12%, 8%);
         color: hsl(217, 12%, 63%);
-        min-height: 8vh;
-        min-width: 12vw;
+        min-width: 10vw;
         padding: 8px;
     }
     
@@ -194,14 +202,14 @@ body{
 
 @media(max-width:885px){
     .card-2{
+        align-items: center;
         background-color: hsl(213, 19%, 18%);
         border-radius: 20px;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
         max-width: 90vw;
         padding: 35px;
-        display: none;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
     }
     
     .container-header{
@@ -221,8 +229,8 @@ body{
     
     .container-paragraph{
         margin-top: 20px;
-        text-align: center;
         max-width: 100vw;
+        text-align: center;
        
     }
     
