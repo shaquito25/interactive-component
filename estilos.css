@@ -246,7 +246,7 @@ body{
         border-radius: 20px;
         display: flex;
         margin-top: 30px;
-        min-width: 60vw;
+        min-width: 50vw;
         max-height:4vh;
         padding: 15px;
     }
@@ -258,7 +258,8 @@ body{
     .container-paragraph{
         margin-top: 20px;
         text-align: center;
-        min-width: 90vw;
+        max-width: 100vw;
+       
     }
     
     .container-paragraph p{
