@@ -20,7 +20,6 @@ body{
     border-radius: 20px;
     padding: 30px;
     max-width: 30vw; 
-    display: none;
 }
 
 .star{
@@ -106,6 +105,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    display: none;
 }
 
 .container-header{
@@ -190,42 +190,6 @@ body{
         padding: 5px;
     }
 
-    .card-2{
-    background-color: hsl(213, 19%, 18%);
-    border-radius: 20px;
-    max-width: 30vw;
-    padding: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.container-header{
-    align-items: center;
-    border: 1px solid hsl(217, 12%, 63%);
-    border-radius: 20px;
-    display: flex;
-    margin-top: 30px;
-    max-width: 20vw;
-    max-height:4vh;
-    padding: 15px;
-}
-
-.container-header span {
-    color: hsl(25, 97%, 53%);
-}
-
-.container-paragraph{
-    margin-top: 20px;
-    text-align: center;
-}
-
-.container-paragraph p{
-    color: hsl(217, 12%, 63%);
-}
-}
-
 /*Responsive Card 2 */
 
 @media(max-width:885px){
@@ -234,7 +198,7 @@ body{
         border-radius: 20px;
         max-width: 90vw;
         padding: 35px;
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         flex-direction: column;
