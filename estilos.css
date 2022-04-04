@@ -20,6 +20,7 @@ body{
     border-radius: 20px;
     padding: 30px;
     max-width: 30vw; 
+    display: none;
 }
 
 .star{
