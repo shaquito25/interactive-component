@@ -19,8 +19,7 @@ body{
     background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
     padding: 30px;
-    max-width: 30vw;
-    display: none; 
+    max-width: 30vw; 
 }
 
 .star{
@@ -232,7 +231,7 @@ body{
     .card-2{
         background-color: hsl(213, 19%, 18%);
         border-radius: 20px;
-        max-width: 30vw;
+        max-width: 90vw;
         padding: 35px;
         display: flex;
         justify-content: center;
@@ -246,7 +245,7 @@ body{
         border-radius: 20px;
         display: flex;
         margin-top: 30px;
-        max-width: 20vw;
+        min-width: 60vw;
         max-height:4vh;
         padding: 15px;
     }
@@ -258,6 +257,7 @@ body{
     .container-paragraph{
         margin-top: 20px;
         text-align: center;
+        min-width: 90vw;
     }
     
     .container-paragraph p{
