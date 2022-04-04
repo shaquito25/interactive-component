@@ -9,7 +9,7 @@ let stars_score = 0 // valor por defecto
 
 
 const onsubmit = () => {
-   if(stars_score === 0){
+   if(stars_score == 0){
       calificacion.style.display = "flex"
    }else{
        card_2.style.display = "flex"
