@@ -4,7 +4,7 @@ const rating_btn = document.querySelectorAll(".botones") //Selecciona botones ra
 const card_1 = document.querySelector("#container1") // Seleccioan el card 1
 const card_2 = document.querySelector("#container2") // Selecciona el card 2 
 const score = document.querySelector("#score") // Selecciona el Span con el score
-let stars_score = 3 // valor por defecto
+let stars_score  // valor por defecto
 
 
 const onsubmit = () => {
